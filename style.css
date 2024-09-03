@@ -1,0 +1,236 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', serif;
+    color: #3d3d3d;
+}
+
+a {
+    color: #6f42c1;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #563d7c;
+    text-decoration: underline;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #6f42c1;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+    padding: 0.75rem 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa;
+}
+
+/* Header Section */
+header {
+    background: url('https://via.placeholder.com/1920x700') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 150px 0;
+}
+
+header .header-title {
+    font-size: 4rem;
+    text-shadow: 2px 2px 5px #000;
+}
+
+header .header-subtitle {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 3px #000;
+}
+
+/* About Section */
+#about {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+#about .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+#about .section-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #6c757d;
+}
+
+#about .lead {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+/* Menu Section */
+#menu {
+    padding: 50px 0;
+}
+
+#menu .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+#menu .card {
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+#menu .card:hover {
+    transform: scale(1.05);
+}
+
+#menu .card-title {
+    font-size: 1.25rem;
+    color: #6f42c1;
+}
+
+#menu .card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Reviews Section */
+#reviews {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+#reviews .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+#reviews .review-card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#reviews .review-text {
+    font-size: 1.1rem;
+    color: #444;
+}
+
+#reviews .reviewer-name {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #6f42c1;
+}
+
+/* Gallery Section */
+#gallery {
+    padding: 50px 0;
+}
+
+#gallery .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+#gallery img {
+    transition: transform 0.3s ease-in-out;
+}
+
+#gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 0;
+}
+
+#contact .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+#contact .form-control {
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 1rem;
+}
+
+#contact button {
+    background-color: #6f42c1;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#contact button:hover {
+    background-color: #563d7c;
+}
+
+/* Footer */
+footer {
+    background-color: #6f42c1;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+footer a {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+footer a:hover {
+    color: #ddd;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header {
+        padding: 100px 0;
+    }
+
+    header .header-title {
+        font-size: 2.5rem;
+    }
+
+    header .header-subtitle {
+        font-size: 1.2rem;
+    }
+
+    #reviews .review-card {
+        margin-bottom: 20px;
+    }
+
+    #gallery .col-md-4 {
+        margin-bottom: 30px;
+    }
+}
